@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Project/Scenes/MobileSurvey.unity
-    guid: b9ccdf78c14743e44b3236efdb7b6c73
+    path: Assets/_Project/Scenes/MainStage.unity
+    guid: 7478b9a9b5722674fb7f48e2169cef4b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

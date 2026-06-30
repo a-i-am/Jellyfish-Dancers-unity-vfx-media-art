@@ -146,6 +146,7 @@ namespace Project.VFX.TVUniverse
 
         GUILayout.Label("Active Crowd " + selectedCount);
     }
+#endif
 
     public void ConfigureVfx(VisualEffect visualEffect, Transform tvFrame, bool localSpace)
     {
@@ -187,6 +188,7 @@ namespace Project.VFX.TVUniverse
         attractorStrength += crowdStrength * Mathf.Clamp01(totalWeight / selectedCount);
     }
 
+#if UNITY_EDITOR
     private void DrawSlider(string label, ref float value, float min, float max)
     {
         GUILayout.Label(label + " " + value.ToString("0.00"));
