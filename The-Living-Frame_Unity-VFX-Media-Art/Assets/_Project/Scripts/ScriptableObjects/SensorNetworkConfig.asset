@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e420fcb37a13d47ad35547f5668138, type: 3}
+  m_Name: SensorNetworkConfig
+  m_EditorClassIdentifier: 
+  phone:
+    deviceId: phone
+    listenPort: 9000
+    timeoutSeconds: 2
+  tablet:
+    deviceId: tablet
+    listenPort: 9001
+    timeoutSeconds: 2
+  oscMappings:
+    phoneTouch:
+      address: /phone/touch*
+      xIndex: 0
+      yIndex: 1
+      normalizeTo01: 1
+      inputMin: {x: -1, y: -1.03}
+      inputMax: {x: 1, y: 0.9}
+      invertY: 0
+      clamp01: 1
+    phonePress:
+      address: /phone/press
+      valueIndex: 0
+    tabletTilt:
+      address: /tablet/gravity
+      xIndex: 0
+      yIndex: 1
+      zIndex: 2
+    tabletGyro:
+      address: /tablet/gyro
+      xIndex: 0
+      yIndex: 1
+      zIndex: 2
+    tabletAcceleration:
+      address: /tablet/accel
+      xIndex: 0
+      yIndex: 1
+      zIndex: 2
+    derivePhonePressFromTouch: 1
+    phoneTouchReleaseSeconds: 0.15
+  logDecodedMessages: 0
+  logIntervalSeconds: 0.5

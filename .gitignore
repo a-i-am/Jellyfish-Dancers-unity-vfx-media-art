@@ -1,0 +1,49 @@
+# Unity generated folders
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+
+# IDE / generated project files
+**/.vs/
+**/.vscode/
+**/.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity cache / crash output
+*.pidb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local captures and exported player builds
+**/Assets/Screenshots/
+**/Assets/Screenshots.meta
+**/Captures/
+/*.mp4
+/*.png
+
+# Local Codex transcript exports
+session with codex*.md
+
+# Private local reference material
+NOT publics/
+Unused/
