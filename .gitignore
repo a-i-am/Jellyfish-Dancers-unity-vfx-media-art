@@ -41,9 +41,10 @@ Desktop.ini
 /*.mp4
 /*.png
 
-# Local Codex transcript exports
-session with codex*.md
-
 # Private local reference material
 NOT publics/
 Unused/
+
+# Local verification output
+**/Assets/VerificationCaptures/
+**/Assets/Resources/PerformanceTestRunInfo.json*
