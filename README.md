@@ -6,6 +6,8 @@
 
 웹캠과 네트워크 센서 입력에 반응하는 Unity 기반 인터랙티브 미디어 아트 프로젝트입니다. 관객의 실루엣과 센서 신호를 해파리 군집, 파티클, 화면 연출로 변환합니다.
 
+최종 업데이트: 2026-06-30
+
 ### 프로젝트 정보
 
 | 항목 | 내용 |
@@ -56,9 +58,21 @@
 - 전시 전체 흐름, 웹캠 실루엣, 센서 반응 영상을 추가할 예정입니다.
 - Windows 빌드를 기준으로 검증한 뒤 WebGL과 Android 상태를 갱신합니다.
 
+### 브랜치 및 커밋 정리
+
+- `build(1)/(2)/(3)` 실험 브랜치는 하나의 빌드 흐름으로 정리했습니다.
+- 공개 커밋에는 검증 산출물과 로컬 도구 흔적을 남기지 않았습니다.
+
+### 업데이트 계획
+
+- 전시 영상이 준비되면 웹캠 실루엣과 센서 반응 링크를 추가합니다.
+- Windows 검증 이후 WebGL과 Android 상태를 다시 표시합니다.
+
 ## English
 
 An interactive Unity media-art project that transforms webcam silhouettes and network sensor signals into jellyfish crowds, particles, and multi-display visuals.
+
+Last updated: 2026-06-30
 
 ### Project
 
@@ -111,3 +125,13 @@ Separating transport, decoding, event routing, and VFX binding kept hardware-spe
 ### Video and Updates
 
 An installation-flow video covering webcam silhouettes and sensor reactions will be added after Windows validation. WebGL and Android status will then be updated.
+
+### Branch and Commit Notes
+
+- The `build(1)/(2)/(3)` experiments were consolidated into one build flow.
+- Public commits exclude verification artifacts and local tooling traces.
+
+### Update Plan
+
+- Add the installation video links once the footage is ready.
+- Refresh the WebGL and Android status after Windows validation.
