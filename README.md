@@ -50,6 +50,11 @@ README 업데이트: 2026-07-01
 
 ### 빌드 사양
 
+- [Windows x86_64 다운로드](https://github.com/a-i-am/Jellyfish-Dancers-unity-vfx-media-art/releases/download/build-2026-06-30/Jellyfish-Dancers-Windows-x86_64.zip)
+- [WebGL 다운로드](https://github.com/a-i-am/Jellyfish-Dancers-unity-vfx-media-art/releases/download/build-2026-06-30/Jellyfish-Dancers-WebGL.zip)
+- [Android ARM64 다운로드](https://github.com/a-i-am/Jellyfish-Dancers-unity-vfx-media-art/releases/download/build-2026-06-30/Jellyfish-Dancers-Android-arm64.apk)
+- [전체 릴리스](https://github.com/a-i-am/Jellyfish-Dancers-unity-vfx-media-art/releases)
+
 | Target | 상태 | 비고 |
 | --- | --- | --- |
 | Windows x86_64 | 주 빌드 | 웹캠, TCP/OSC 센서, 멀티 디스플레이 전시 환경 |
