@@ -61,6 +61,7 @@ public sealed class JellyfishCrowdSpawner : MonoBehaviour
     [SerializeField] private JellyfishEmotionResultLog resultLog;
 
     [Header("Look")]
+    [SerializeField] private Shader jellyfishBellShader;
     [SerializeField] private Color cyan = new Color(0.30f, 0.95f, 1.0f, 0.34f);
     [SerializeField] private Color violet = new Color(0.78f, 0.42f, 1.0f, 0.32f);
     [SerializeField] private Color warmWhite = new Color(1.0f, 0.92f, 0.62f, 0.30f);
@@ -162,7 +163,7 @@ public sealed class JellyfishCrowdSpawner : MonoBehaviour
 
     private Material CreateBellMaterial()
     {
-        Shader shader = Shader.Find("TheLivingFrame/JellyfishBell");
+        Shader shader = jellyfishBellShader != null ? jellyfishBellShader : Shader.Find("TheLivingFrame/JellyfishBell");
         if (shader == null)
         {
             shader = Shader.Find("Universal Render Pipeline/Unlit");
