@@ -10,7 +10,7 @@ README 업데이트: 2026-07-01
 
 ### Test Video
 
-<video src="The-Living-Frame_Unity-VFX-Media-Art/Builds/Windows/Jellyfish%20Dancers%20Windows%20Build%20Test.mp4" controls></video>
+[테스트 영상](Jellyfish-Dancers-unity-vfx-media-art/Builds/Windows/Jellyfish%20Dancers%20Windows%20Build%20Test.mp4)
 
 ### 프로젝트 정보
 
