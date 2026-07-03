@@ -40,6 +40,10 @@ Desktop.ini
 **/Captures/
 /*.mp4
 /*.png
+!The-Living-Frame_Unity-VFX-Media-Art/Builds/
+The-Living-Frame_Unity-VFX-Media-Art/Builds/**
+!The-Living-Frame_Unity-VFX-Media-Art/Builds/Windows/
+!The-Living-Frame_Unity-VFX-Media-Art/Builds/Windows/Jellyfish Dancers Windows Build Test.mp4
 
 # Private local reference material
 NOT publics/
