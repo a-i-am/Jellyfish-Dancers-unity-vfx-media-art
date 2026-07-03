@@ -10,7 +10,9 @@ README 업데이트: 2026-07-01
 
 ### Test Video
 
-[테스트 영상 바로 보기](https://github.com/a-i-am/Jellyfish-Dancers-unity-vfx-media-art/raw/main/Jellyfish-Dancers-unity-vfx-media-art/Builds/Windows/Jellyfish%20Dancers%20Windows%20Build%20Test.mp4)
+![테스트 영상 미리보기](media/test-video-preview.gif)
+
+[원본 테스트 영상 바로 보기](https://github.com/a-i-am/Jellyfish-Dancers-unity-vfx-media-art/raw/main/Jellyfish-Dancers-unity-vfx-media-art/Builds/Windows/Jellyfish%20Dancers%20Windows%20Build%20Test.mp4)
 
 ### 프로젝트 정보
 
