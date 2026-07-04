@@ -371,6 +371,7 @@ MonoBehaviour:
   gravityStrength: 0.28
   gravityRadius: 1.8
   resultLog: {fileID: 0}
+  jellyfishBellShader: {fileID: 4800000, guid: b7a6edaf4e5067e47940384ecc97a245, type: 3}
   cyan: {r: 0.3, g: 0.95, b: 1, a: 0.34}
   violet: {r: 0.78, g: 0.42, b: 1, a: 0.32}
   warmWhite: {r: 1, g: 0.92, b: 0.62, a: 0.3}
